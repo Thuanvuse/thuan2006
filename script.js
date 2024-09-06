@@ -1,5 +1,5 @@
 function calculateCountdown() {
-    const birthday = new Date('YYYY-MM-DD'); // Thay 'YYYY-MM-DD' bằng ngày sinh nhật của bạn
+    const birthday = new Date('2006-03-29'); // Thay 'YYYY-MM-DD' bằng ngày sinh nhật của bạn
     const now = new Date();
     const timeDiff = birthday - now;
 
